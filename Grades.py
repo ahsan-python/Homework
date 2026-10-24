@@ -32,3 +32,5 @@ def Grades():
         print(f"Average Marks = {Average_marks:.2f}")
     else:
         print("No valid marks were entered.")
+# Function Call
+Grades()
