@@ -18,3 +18,8 @@ def Grades():
                 print("Grade: C")
             else:
                 print("Grade: F")
+# Accumulating totals correctly
+            Total_marks += Grades_input
+            Student_count += 1
+        else:
+            print("Invalid Input! Marks 0 se 100 ke beech mein hone chahiye.")
