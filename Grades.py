@@ -23,3 +23,12 @@ def Grades():
             Student_count += 1
         else:
             print("Invalid Input! Marks 0 se 100 ke beech mein hone chahiye.")
+# 2. Final calculations AFTER the loop ends
+    print("\n--- CLASS SUMMARY ---")
+    if Student_count > 0:
+        Average_marks = Total_marks / Student_count
+        print(f"Total Students = {Student_count}")
+        print(f"Total Marks of Class = {Total_marks}")
+        print(f"Average Marks = {Average_marks:.2f}")
+    else:
+        print("No valid marks were entered.")
