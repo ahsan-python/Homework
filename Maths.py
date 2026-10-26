@@ -58,7 +58,28 @@ while True:
     # Teeno sides user se dynamically input karwana inside the loop
     sides = {}
     try:
+sides['a'] = float(input("Give the first side (a): "))
+        sides['b'] = float(input("Give the second side (b): "))
+        sides['c'] = float(input("Give the third side (c): "))
+    except ValueError:
+        print("❌ Invalid number entered! Please enter valid numeric values.")
+        continue
 
+    print(f"\n[Saved Sides] -> a: {sides['a']}, b: {sides['b']}, c: {sides['c']}")
+
+    if choice == 'sine':
+        print("\n--- Sine Rule Calculation ---")
+        try:
+            angle_A_deg = float(input("Enter angle A (in degrees, opposite to side a): "))
+            angle_B_deg = float(input("Enter angle B (in degrees, opposite to side b): "))
+            
+            angle_A_rad = math.radians(angle_A_deg)
+            angle_B_rad = math.radians(angle_B_deg)
+            
+            calculated_side = (sides['b'] * math.sin(angle_A_rad)) / math.sin(angle_B_rad)
+            print(f"👉 Calculated Side using Sine Rule: {calculated_side:.2f}")
+        except ValueError:
+            print("❌ Invalid angle entered!")
 
 
 
