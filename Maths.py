@@ -46,10 +46,7 @@ sides['a'] = float(input("Give the first side (a): "))
 sides['b'] = float(input("Give the second side (b): "))
 sides['c'] = float(input("Give the third side (c): "))    
     while True:
-        Enter = input("Do you want to calculate with 'sine rule','cosine rule' or 'triagular cosine rule'?:")
-        if Enter == 'sine'
-        print(
-
+       
 
 
 
