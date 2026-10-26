@@ -45,8 +45,11 @@ sides = {}
 sides['a'] = float(input("Give the first side (a): "))
 sides['b'] = float(input("Give the second side (b): "))
 sides['c'] = float(input("Give the third side (c): "))    
-    while True:
-       
+    
+       print(f"\nSaved Sides -> a: {sides['a']}, b: {sides['b']}, c: {sides['c']}\n")
+
+# Rule choose karo
+choice = input("Kaunsa rule lagana hai? ('sine' ya 'cosine'): ").strip().lower()
 
 
 
