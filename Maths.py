@@ -39,5 +39,18 @@ target_number = 26
 result = two_sum_numbers(my_list,target_number)
 print("Target numbers:", target_number)
 print("Pair found:", result)
+import maths
+    print("==Welcome to calculator for cosine and sine rule==")
+    while True:
+        Enter = input("Do you want to calculate with 'sine rule','cosine rule' or 'triagular cosine rule'?:")
+        if Enter == 'sine'
+        print(
+
+
+
+
+
+
+
 collatz_sequence()
         
