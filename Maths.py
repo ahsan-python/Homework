@@ -39,26 +39,25 @@ target_number = 26
 result = two_sum_numbers(my_list,target_number)
 print("Target numbers:", target_number)
 print("Pair found:", result)
-import maths
-  print("==Welcome to calculator for cosine and sine rule==") 
+import math
 
+print("=== Triangle Calculator (Sine & Cosine Rules) ===")
 
-      print(f"\nSaved Sides -> a: {sides['a']}, b: {sides['b']}, c: {sides['c']}\n")
-
-# Rule choose karo
-choice = input("Kaunsa rule lagana hai? ('sine' ya 'cosine'): ").strip().lower()
- print("==Welcome to calculator for cosine and sine rule==")
-sides = {}
-sides['a'] = float(input("Give the first side (a): "))
-sides['b'] = float(input("Give the second side (b): "))
-sides['c'] = float(input("Give the third side (c): "))    
+while True:
+    print("\n" + "="*40)
+    choice = input("Kaunsa rule lagana hai? ('sine', 'cosine', ya 'exit' to quit): ").strip().lower()
     
-       print(f"\nSaved Sides -> a: {sides['a']}, b: {sides['b']}, c: {sides['c']}\n")
+    if choice == 'exit':
+        print("\nProgram exited. Keep grinding! ⚔️")
+        break
+        
+    if choice not in ['sine', 'cosine']:
+        print("Invalid choice! Please type 'sine', 'cosine', or 'exit'.")
+        continue
 
-# Rule choose karo
-choice = input("Kaunsa rule lagana hai? ('sine' ya 'cosine'): ").strip().lower()
-
-
+    # Teeno sides user se dynamically input karwana inside the loop
+    sides = {}
+    try:
 
 
 
