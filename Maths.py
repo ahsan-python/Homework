@@ -40,7 +40,14 @@ result = two_sum_numbers(my_list,target_number)
 print("Target numbers:", target_number)
 print("Pair found:", result)
 import maths
-    print("==Welcome to calculator for cosine and sine rule==")
+  print("==Welcome to calculator for cosine and sine rule==") 
+
+
+      print(f"\nSaved Sides -> a: {sides['a']}, b: {sides['b']}, c: {sides['c']}\n")
+
+# Rule choose karo
+choice = input("Kaunsa rule lagana hai? ('sine' ya 'cosine'): ").strip().lower()
+ print("==Welcome to calculator for cosine and sine rule==")
 sides = {}
 sides['a'] = float(input("Give the first side (a): "))
 sides['b'] = float(input("Give the second side (b): "))
