@@ -2,34 +2,3 @@ import json
 import os
 from datetime import date
 
-MINI_FILE = "pocket_money.json"
-    #Reviews data which was stored
-def pocket_money_data():
-    """Uploads all the expenses in the file"""
-    if os.path.exist(MINI_FILE):
-        with open("MINI_FILE", "r") as f:
-           return json.load(f)
-    return {}
-    #Adds new data for today
-def save_expenses(amount , category):
-    """Stores today's expenses"""
-    data = pocket_money_data()
-    today = str(data.today())
-    #Adding in dictionary
-    data[today] = {
-        "amount": amount,
-        "category": category
-    }
-    with open("MINI_FILE", "w") as f:
-        json.dump(data , f, indent=4) 
-        print("Expenses have finally been added to local file")     
-def view_expenses():
-    """Prints the whole history"""       
-    data = pocket_money_data()
-    if not data:
-        print("Data not found.")
-        return
-    print("\n--- 💸 POCKET EXPENSE HISTORY ---")
-    for d, info in data.items():
-        print(f"Date: {d} | Amount: {info['amount']} | Category: {info['category']}")
-    print("-" * 30)
