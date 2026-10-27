@@ -9,3 +9,13 @@ def pocket_money_data():
         with open("MINI_FILE", "r") as f:
            return json.load(f)
     return {}
+    #Adds new data for today
+def save_expenses(amount , category):
+    """Stores today's expenses"""
+    data = pocket_money_data()
+    today = str(data.today())
+    #Adding in dictionary
+    data[today] = {
+        "amount": amount,
+        "category": category
+    }
