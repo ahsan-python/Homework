@@ -1,4 +1,11 @@
 import json
 import os
 from datetime import date
-
+MINI_FILE = "pocket_money.json"
+    #Reviews data which was stored
+def pocket_money_data():
+    """Uploads all the expenses in the file"""
+    if os.path.exist(MINI_FILE):
+        with open("MINI_FILE", "r") as f:
+           return json.load(f)
+    return {}
