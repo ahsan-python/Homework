@@ -29,3 +29,5 @@ def view_expenses():
         print("Data not found.")
         return
     print("\n--- 💸 POCKET EXPENSE HISTORY ---")
+    for d, info in data.items():
+        print(f"Date: {d} | Amount: {info['amount']} | Category: {info['category']}")
