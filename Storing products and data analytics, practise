@@ -19,3 +19,9 @@ def save_expenses(amount , category):
         "amount": amount,
         "category": category
     }
+    with open("MINI_FILE", "w") as f:
+        json.dump(data , f, indent=4) 
+        print("Expenses have finally been added to local file")     
+def view_expenses():
+    """Prints the whole history"""       
+    data = pocket_money_data()
