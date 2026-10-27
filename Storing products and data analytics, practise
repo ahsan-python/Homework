@@ -25,3 +25,7 @@ def save_expenses(amount , category):
 def view_expenses():
     """Prints the whole history"""       
     data = pocket_money_data()
+    if not data:
+        print("Data not found.")
+        return
+    print("\n--- 💸 POCKET EXPENSE HISTORY ---")
