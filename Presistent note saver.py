@@ -19,6 +19,8 @@ def saving_data():
    data = notes_json_available()
   with open(NOTES, "w")as f:
     json.dump(data, f, indent=4)
+    while True:
+        continue_or_exit = input("Press Enter to add a note, or type 'exit' to quit: ")
     
     
     
