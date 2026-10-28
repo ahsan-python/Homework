@@ -23,7 +23,9 @@ def saving_data():
         continue_or_exit = input("Press Enter to add a note, or type 'exit' to quit: ")
         if continue_or_exit.lower == 'exit':
           break
+       
         
+         add_new_note() 
     
     
   
