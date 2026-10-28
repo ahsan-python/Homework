@@ -21,7 +21,9 @@ def saving_data():
     json.dump(data, f, indent=4)
     while True:
         continue_or_exit = input("Press Enter to add a note, or type 'exit' to quit: ")
-    
+        if continue_or_exit.lower == 'exit':
+          break
+        
     
     
   
