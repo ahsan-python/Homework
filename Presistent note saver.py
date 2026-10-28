@@ -8,4 +8,14 @@ def notes_json_available():
       return json.load(f)
   else:
       return[]
+def add_new_note():
+  data = notes_json_available()
+  new = input("Add new notes:")
+  data.append(new)
+  with open(NOTES, "w")as f:
+    json.dump(data, f, indent=4)
+    print(f"Saved Current notes : {data}")
+    
+    
+  
     
