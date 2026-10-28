@@ -15,6 +15,11 @@ def add_new_note():
   with open(NOTES, "w")as f:
     json.dump(data, f, indent=4)
     print(f"Saved Current notes : {data}")
+def saving_data():
+   data = notes_json_available()
+  with open(NOTES, "w")as f:
+    json.dump(data, f, indent=4)
+    
     
     
   
