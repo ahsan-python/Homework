@@ -1,1 +1,2 @@
 class Car:
+def __initi(self, color, brand)
