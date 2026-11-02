@@ -2,3 +2,8 @@ import json #setting new file.
 import os #system that enter, loads and shows the file.
 
 DATE_FILE = "2-11-26.json"
+#1-It checks wheather the file exist or not#
+def check_date_exist():
+    if os.path.exists(DATE_FILE):
+        with open(DATE_FILE, "r")as f:
+            return json.load(f)
