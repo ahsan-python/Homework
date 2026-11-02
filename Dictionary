@@ -1,1 +1,2 @@
-
+import json #setting new file.
+import os #system that enter, loads and shows the file.
