@@ -1,2 +1,4 @@
 import json #setting new file.
 import os #system that enter, loads and shows the file.
+
+DATE_FILE = "2-11-26.json"
