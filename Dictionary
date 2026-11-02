@@ -15,3 +15,6 @@ def enter_new_data():
     data = check_date_exist()
     if not isinstance(data, list):
         data = []
+    data.append(new_date)
+    with open(DATE, "w",encoding="utf-8")as f:
+        json.dump(data, f, indent=4)
