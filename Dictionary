@@ -7,3 +7,6 @@ def check_date_exist():
     if os.path.exists(DATE_FILE):
         with open(DATE_FILE, "r")as f:
             return json.load(f)
+    else:
+        return[]
+#It enters new data in the file.
