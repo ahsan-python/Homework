@@ -18,3 +18,8 @@ def enter_new_data():
     data.append(new_date)
     with open(DATE, "w",encoding="utf-8")as f:
         json.dump(data, f, indent=4)
+#saves the new data with old one
+def saving_new_date():
+    data = check_date_exist()
+    with open(DATE_FILE, "w")as f:
+        json.dump(data ,f, indent=4)
