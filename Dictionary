@@ -10,3 +10,8 @@ def check_date_exist():
     else:
         return[]
 #It enters new data in the file.
+def enter_new_data():
+    new_date = input("new date(DD/MM/YYYY):")
+    data = check_date_exist()
+    if not isinstance(data, list):
+        data = []
