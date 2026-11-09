@@ -5,3 +5,5 @@ class Student:
        self.__marks = 0
 
   def get_name(self):
+      return self.__name
+     
