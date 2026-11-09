@@ -13,4 +13,4 @@ class Student:
      self.__marks = score
          print(f"Marks updated to {self.__marks} for {self.__name}")
      else: 
-         
+         print(f"Invalid score!! Marks must be in between 0 and 100")
