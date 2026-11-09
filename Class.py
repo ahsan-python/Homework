@@ -11,3 +11,6 @@ class Student:
   def set_marks(score,self):
      if 0 <= score <= 100:
      self.__marks = score
+         print(f"Marks updated to {self.__marks} for {self.__name}")
+     else: 
+         
