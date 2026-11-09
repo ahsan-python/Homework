@@ -8,3 +8,4 @@ class Student:
       return self.__name
   def get_marks(self):
       return self.__marks 
+  def set_marks(score,self):
