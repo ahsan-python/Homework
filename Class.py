@@ -9,3 +9,4 @@ class Student:
   def get_marks(self):
       return self.__marks 
   def set_marks(score,self):
+     if 0 <= score <= 100:
