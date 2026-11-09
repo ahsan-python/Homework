@@ -3,3 +3,5 @@ class Student:
        self.__name = student_name
        self.__student_id = student_id
        self.__marks = 0
+
+  def get_name(self):
