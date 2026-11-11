@@ -8,3 +8,4 @@ def start_engine(self):
 student_database = []
 
 #Adding students
+s1 = student_database.append("Ali",101)
