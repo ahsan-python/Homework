@@ -10,3 +10,4 @@ student_database = []
 #Adding students
 s1 = student_database.append("Ali",101)
 s2 = student_database.append("Fatima", 102)
+s3 = student_database.append("Bilal", 103)
