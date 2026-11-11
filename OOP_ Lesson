@@ -17,3 +17,4 @@ student_database.append(s2)
 student_database.append(s3)
 #Updating marks
 s1.set_marks(97)
+s2.set_marks(98)
