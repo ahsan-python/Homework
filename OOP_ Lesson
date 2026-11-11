@@ -13,6 +13,6 @@ s2 = Students("Fatima", 102)
 s3 = Students("Bilal", 103)
 #Adding in list
 student_database.append(s1)
-
+student_database.append(s2)
 
 #Updating marks
