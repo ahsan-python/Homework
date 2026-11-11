@@ -21,3 +21,4 @@ s2.set_marks(98)
 # Running the loop to check each and everyone's data
 print("\n--- Student Database ---")
 for student in student_database:
+    print(f"Name: {student.get_name()} | Marks: {student.get_marks()}")
