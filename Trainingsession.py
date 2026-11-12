@@ -6,3 +6,4 @@ class  TrainingSession:
         self.__Checking = False
 # Setting new time
     def setting_time(self, NewTime):
+        if  NewTime >240 or NewTime < 15 :
