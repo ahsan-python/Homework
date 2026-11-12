@@ -7,3 +7,4 @@ class  TrainingSession:
 # Setting new time
     def setting_time(self, NewTime):
         if  NewTime >240 or NewTime < 15 :
+            print("Error : Invalid duration")
