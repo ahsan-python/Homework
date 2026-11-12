@@ -9,3 +9,4 @@ class  TrainingSession:
         if  NewTime >240 or NewTime < 15 :
             print("Error : Invalid duration")
         else:
+            self.__Time = NewTime
