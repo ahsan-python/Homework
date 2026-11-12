@@ -5,3 +5,4 @@ class  TrainingSession:
         self.__Name = Title
         self.__Checking = False
 # Setting new time
+    def setting_time(self, NewTime):
