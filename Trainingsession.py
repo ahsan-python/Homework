@@ -4,3 +4,4 @@ class  TrainingSession:
         self.__sessionID = SessionID
         self.__Name = Title
         self.__Checking = False
+# Setting new time
