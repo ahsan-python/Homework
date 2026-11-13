@@ -22,4 +22,4 @@ class  TrainingSession:
        return self.__Checking
    
    def getting_Time():
-       return self.__
+       return self.__Time
