@@ -3,6 +3,7 @@ class  TrainingSession:
     def __init__(self, SessionID, Title, DurationMinutes, IsCompleted):
         self.__sessionID = SessionID
         self.__Name = Title
+        self.__Time = DurationMinutes
         self.__Checking = IsCompleted
 # Setting new time
     def setting_time(self, NewTime):
@@ -21,3 +22,4 @@ class  TrainingSession:
        return self.__Checking
    
    def getting_Time():
+       return self.__
