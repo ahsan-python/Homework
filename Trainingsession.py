@@ -10,3 +10,4 @@ class  TrainingSession:
             print("Error : Invalid duration")
         else:
             self.__Time = NewTime
+# Getting a Private Attributes
