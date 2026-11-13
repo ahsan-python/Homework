@@ -3,7 +3,7 @@ class  TrainingSession:
     def __init__(self, SessionID, Title, DurationMinutes, IsCompleted):
         self.__sessionID = SessionID
         self.__Name = Title
-        self.__Checking = False
+        self.__Checking = IsCompleted
 # Setting new time
     def setting_time(self, NewTime):
         if  NewTime >240 or NewTime < 15 :
@@ -17,3 +17,4 @@ class  TrainingSession:
    def getting_Title(self):
        return self.__Name    
        
+   def getting_Check():
