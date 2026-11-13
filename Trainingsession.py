@@ -18,3 +18,4 @@ class  TrainingSession:
        return self.__Name    
        
    def getting_Check():
+       return self.__Checking
