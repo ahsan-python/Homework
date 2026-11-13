@@ -19,3 +19,5 @@ class  TrainingSession:
        
    def getting_Check():
        return self.__Checking
+   
+   def getting_Time():
