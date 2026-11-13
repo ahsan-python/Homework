@@ -15,5 +15,5 @@ class  TrainingSession:
        return self.__sessionID    
 
    def getting_Title(self):
-       
+       return self.__Name    
        
