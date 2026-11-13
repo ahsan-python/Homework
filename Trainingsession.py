@@ -12,6 +12,6 @@ class  TrainingSession:
             self.__Time = NewTime
 # Getting a Private Attributes
    def getting_SessionID(self):
-       
+       return self.__sessionID    
 
    
