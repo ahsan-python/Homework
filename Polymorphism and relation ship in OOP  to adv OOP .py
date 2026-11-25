@@ -18,3 +18,4 @@ class BankAccount:
             return ValueError("Balance cannot be zero or negative")
         self.balance += amount
     def Get_Balance(self):     
+        return self.balance
