@@ -14,3 +14,5 @@ class BankAccount:
         self.owner = owner #Attributes
         self.balance = balance #Attributes
     def BankAccount(self, amount):    
+        if amount <= 0 
+            return
