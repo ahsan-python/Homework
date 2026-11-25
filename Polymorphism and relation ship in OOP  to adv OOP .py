@@ -8,3 +8,4 @@ class Student:
         return(f"{self.name} studies this many {hours}"):
 s1 = Student("Bilal" , "A")
 s2 = Student("Zainab" , "A*")
+"""Step 2: Encapsulation (Data Hiding & Controlled Access)"""
