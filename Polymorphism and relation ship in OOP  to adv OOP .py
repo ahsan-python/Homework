@@ -13,6 +13,6 @@ class BankAccount:
     def __init__(self, owner, balance = 0):
         self.owner = owner #Attributes
         self.balance = balance #Attributes
-    def BankAccount(self, amount):    
+    def deposit(self, amount):    
         if amount <= 0 
-            return
+            return ValueError("Balance cannot be zero or negative")
