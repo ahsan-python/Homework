@@ -9,3 +9,5 @@ class Student:
 s1 = Student("Bilal" , "A")
 s2 = Student("Zainab" , "A*")
 """Step 2: Encapsulation (Data Hiding & Controlled Access)"""
+class BankAccount:
+    def __init__(self.
