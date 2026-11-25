@@ -13,4 +13,4 @@ class BankAccount:
     def __init__(self, owner, balance = 0):
         self.owner = owner #Attributes
         self.balance = balance #Attributes
-        
+    def BankAccount(self, amount):    
