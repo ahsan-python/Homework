@@ -16,3 +16,5 @@ class BankAccount:
     def deposit(self, amount):    
         if amount <= 0 
             return ValueError("Balance cannot be zero or negative")
+        self.balance += amount
+        
