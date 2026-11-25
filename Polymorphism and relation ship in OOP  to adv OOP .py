@@ -5,3 +5,4 @@ class Student:
         self.Grade = Grade #Attributes
 
     def Study(self, hours):
+        return(f"{self.name} studies {hours}):
