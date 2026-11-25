@@ -1,2 +1,3 @@
 """Creating of a class"""
+class Student:
 
