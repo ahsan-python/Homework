@@ -19,3 +19,5 @@ class BankAccount:
         self.balance += amount
     def Get_Balance(self):     
         return self.balance
+"""Step 3: Polymorphism"""
+
