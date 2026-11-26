@@ -30,5 +30,7 @@ class JazzCashPayment(Payment):
     def pay(self, amount : float)-->None:
         print(f"Processing PKR {amount} via JazzCash wallet.")
 def checkout(payment_method: Payment, amount :float)--None:
-
+    #Same call depending on different behaviour
+    payment_method.pay(amount)
+    
     
