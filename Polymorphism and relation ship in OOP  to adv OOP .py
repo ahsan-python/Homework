@@ -20,4 +20,5 @@ class BankAccount:
     def Get_Balance(self):     
         return self.balance
 """Step 3: Polymorphism"""
-
+class Payment:
+    def pay(self, amount : float)-->None    
