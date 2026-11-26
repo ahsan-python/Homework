@@ -21,4 +21,6 @@ class BankAccount:
         return self.balance
 """Step 3: Polymorphism"""
 class Payment:
-    def pay(self, amount : float)-->None    
+    def pay(self, amount : float)-->None:
+        raise  NotImplementedError("Subclass must implement pay()")
+        
