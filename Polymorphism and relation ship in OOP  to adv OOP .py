@@ -24,4 +24,6 @@ class Payment:
     def pay(self, amount : float)-->None:
         raise  NotImplementedError("Subclass must implement pay()")
 class CardPayment:
+    def pay(self, amount : float)-->None:
+        
     
