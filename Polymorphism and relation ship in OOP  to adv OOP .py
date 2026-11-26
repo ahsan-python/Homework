@@ -23,8 +23,9 @@ class BankAccount:
 class Payment:
     def pay(self, amount : float)-->None:
         raise  NotImplementedError("Subclass must implement pay()")
-class CardPayment:
+class CardPayment(Payment):
     def pay(self, amount : float)-->None:
         print(f"Processing PKR {amount} via debit/credit card.")
-        
+class JazzCashPayment(Payment):
+    def pay
     
