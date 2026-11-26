@@ -32,5 +32,6 @@ class JazzCashPayment(Payment):
 def checkout(payment_method: Payment, amount :float)--None:
     #Same call depending on different behaviour
     payment_method.pay(amount)
-    
+checkout(CardPayment(), 2500)
+checkout(JazzCashPayment(), 2500)    
     
